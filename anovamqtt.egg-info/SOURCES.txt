@@ -1,0 +1,10 @@
+README.md
+setup.py
+anovamqtt/__init__.py
+anovamqtt/anovamqtt.py
+anovamqtt.egg-info/PKG-INFO
+anovamqtt.egg-info/SOURCES.txt
+anovamqtt.egg-info/dependency_links.txt
+anovamqtt.egg-info/not-zip-safe
+anovamqtt.egg-info/requires.txt
+anovamqtt.egg-info/top_level.txt

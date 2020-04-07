@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: anovamqtt
+Version: 0.0.1
+Summary: A Python Library for Anova Nano Precision Cooker
+Home-page: https://github.com/Chumba/anovamqtt
+Author: Chumba
+Author-email: concretekahuna@protonmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

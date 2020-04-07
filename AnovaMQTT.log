@@ -1,0 +1,86 @@
+Apr 07 14:33:45 AnovaMaster starting...
+Apr 07 14:33:45 Setting up connection
+Apr 07 14:33:45 Auto connecting, timeout set to: 10.00
+Apr 07 14:33:46 MQTT connected with result code 0
+Apr 07 14:33:55 Starting anovamqtt BLE adapter
+Apr 07 14:33:56 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:33:56 Connected to: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:33:59 Subscribed to notification handle: 0e140002-0af1-4582-a242-773e63054c68
+Apr 07 14:33:59 Subscribed to notification handle: 0e140003-0af1-4582-a242-773e63054c68
+Apr 07 14:33:59 Running main loop
+Apr 07 14:34:03 Reconnecting...
+Apr 07 14:34:03 Stopping anovamqtt BLE adapter...
+Apr 07 14:34:03 Stopped
+Apr 07 14:34:03 Auto connecting, timeout set to: 10.00
+Apr 07 14:34:14 Starting anovamqtt BLE adapter
+Apr 07 14:34:14 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:34:19 Timed out connecting to 00:81:F9:D2:13:B4 after 5.0 seconds.
+Apr 07 14:34:19 Timed out connecting to 00:81:F9:D2:13:B4 after 5.0 seconds., retrying in 15 seconds...
+Apr 07 14:34:34 Starting anovamqtt BLE adapter
+Apr 07 14:34:35 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:34:36 Connected to: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:34:38 Subscribed to notification handle: 0e140002-0af1-4582-a242-773e63054c68
+Apr 07 14:35:08 No response received
+Traceback (most recent call last):
+  File "/home/bryan/Documents/anovamqtt/anovamqtt/AnovaMQTT.py", line 195, in request
+    self._dev.char_write_handle(handle=handle, value=value , wait_for_response=False)
+  File "/usr/local/lib/python3.7/dist-packages/pygatt/backends/gatttool/device.py", line 17, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/pygatt/backends/gatttool/device.py", line 48, in char_write_handle
+    self._backend.char_write_handle(self, handle, *args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 49, in wrapper
+    raise NotConnectedError()
+pygatt.exceptions.NotConnectedError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 574, in char_write_handle
+    self.sendline(cmd)
+  File "/usr/lib/python3.7/contextlib.py", line 119, in __exit__
+    next(self.gen)
+  File "/usr/local/lib/python3.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 191, in event
+    self.wait(event, timeout)
+  File "/usr/local/lib/python3.7/dist-packages/pygatt/backends/gatttool/gatttool.py", line 157, in wait
+    raise NotificationTimeout()
+pygatt.exceptions.NotificationTimeout: None
+Apr 07 14:35:08 None, retrying in 15 seconds...
+Apr 07 14:35:23 Starting anovamqtt BLE adapter
+Apr 07 14:35:24 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:35:25 Connected to: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:35:28 Subscribed to notification handle: 0e140002-0af1-4582-a242-773e63054c68
+Apr 07 14:35:28 Subscribed to notification handle: 0e140003-0af1-4582-a242-773e63054c68
+Apr 07 14:35:35 Reconnecting...
+Apr 07 14:35:35 Stopping anovamqtt BLE adapter...
+Apr 07 14:35:36 Stopped
+Apr 07 14:35:36 Auto connecting, timeout set to: 10.00
+Apr 07 14:35:46 Starting anovamqtt BLE adapter
+Apr 07 14:35:46 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:35:51 Timed out connecting to 00:81:F9:D2:13:B4 after 5.0 seconds.
+Apr 07 14:35:51 Timed out connecting to 00:81:F9:D2:13:B4 after 5.0 seconds., retrying in 15 seconds...
+Apr 07 14:36:06 Starting anovamqtt BLE adapter
+Apr 07 14:36:07 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:36:08 Connected to: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:36:09 Subscribed to notification handle: 0e140002-0af1-4582-a242-773e63054c68
+Apr 07 14:39:39 AnovaMaster starting...
+Apr 07 14:39:39 Setting up connection
+Apr 07 14:39:39 Auto connecting, timeout set to: 10.00
+Apr 07 14:39:40 MQTT connected with result code 0
+Apr 07 14:39:50 Starting anovamqtt BLE adapter
+Apr 07 14:39:50 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:39:55 Timed out connecting to 00:81:F9:D2:13:B4 after 5.0 seconds.
+Apr 07 14:39:55 Timed out connecting to 00:81:F9:D2:13:B4 after 5.0 seconds., retrying in 15 seconds...
+Apr 07 14:40:10 Starting anovamqtt BLE adapter
+Apr 07 14:40:11 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:40:11 Connected to: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:40:14 Subscribed to notification handle: 0e140002-0af1-4582-a242-773e63054c68
+Apr 07 14:40:14 Subscribed to notification handle: 0e140003-0af1-4582-a242-773e63054c68
+Apr 07 14:40:14 Running main loop
+Apr 07 14:40:31 Reconnecting...
+Apr 07 14:40:31 Stopping anovamqtt BLE adapter...
+Apr 07 14:40:31 Stopped
+Apr 07 14:40:31 Auto connecting, timeout set to: 10.00
+Apr 07 14:40:42 Starting anovamqtt BLE adapter
+Apr 07 14:40:42 Connecting to Anova device: {'address': '00:81:F9:D2:13:B4', 'name': 'Nano'}
+Apr 07 14:40:47 Timed out connecting to 00:81:F9:D2:13:B4 after 5.0 seconds.
+Apr 07 14:40:47 Timed out connecting to 00:81:F9:D2:13:B4 after 5.0 seconds., retrying in 15 seconds...
